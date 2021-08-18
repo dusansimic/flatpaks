@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>com.sindresorhus.Caprine</id>
+  <provides>
+    <id>com.spotify.Client.desktop</id>
+  </provides>
+  <launchable type="desktop-id">com.sindresorhus.Caprine.desktop</launchable>
+  <name>Caprine</name>
+  <developer_name>Sindre Sorhus</developer_name>
+  <summary>Elegant Facebook Messenger desktop app</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <url type="homepage">https://sindresorhus.com/caprine</url>
+  <icon type="remote" height="256" width="256">https://raw.githubusercontent.com/sindresorhus/caprine/master/build/icon.png</icon>
+  <description>
+    <p>Caprine is an unofficial and privacy-focused Facebook Messenger app with many useful features.</p>
+  </description>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main window</caption>
+      <image>https://github.com/sindresorhus/caprine/raw/main/media/screenshot.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Main window with dark mode</caption>
+      <image>https://github.com/sindresorhus/caprine/raw/main/media/screenshot-dark.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Main window with vibrancy mode</caption>
+      <image>https://github.com/sindresorhus/caprine/raw/main/media/screenshot-vibrancy.jpg</image>
+    </screenshot>
+  </screenshots>
+  <releases>
+    <release date="2020-08-18" version="2.54.1"/>
+  </releases>
+  <url type="bugtracker">https://github.com/sindresorhus/caprine/issues</url>
+  <url type="donation">https://sindresorhus.com/donate</url>
+  <url type="help">https://github.com/sindresorhus/caprine</url>
+  <url type="translate">https://github.com/sindresorhus/caprine</url>
+  <update_contact>dusan.simic1810@gmail.com</update_contact>
+</component>
