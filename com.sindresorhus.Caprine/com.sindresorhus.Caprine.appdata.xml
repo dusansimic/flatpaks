@@ -2,7 +2,7 @@
 <component type="desktop">
   <id>com.sindresorhus.Caprine</id>
   <provides>
-    <id>com.spotify.Client.desktop</id>
+    <id>com.sindresorhus.Caprine.desktop</id>
   </provides>
   <launchable type="desktop-id">com.sindresorhus.Caprine.desktop</launchable>
   <name>Caprine</name>
