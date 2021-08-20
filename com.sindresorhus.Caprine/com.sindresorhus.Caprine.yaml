@@ -22,7 +22,11 @@ finish-args:
   # Network access
   - --share=network
   # Local filesystem
-  - --filesystem=home
+  - --filesystem=xdg-documents
+  - --filesystem=xdg-download
+  - --filesystem=xdg-music
+  - --filesystem=xdg-pictures
+  - --filesystem=xdg-videos
 
   # Required for notifications in various desktop environments
   - --talk-name=org.freedesktop.Notifications
