@@ -61,7 +61,7 @@ modules:
         for size in 16 32 48 64 128 256 512; do
           install -Dm644 build/icons/${size}x$size.png /app/share/icons/hicolor/${size}x$size/apps/com.sindresorhus.Caprine.png
         done
-      - install -Dm644 ../com.sindresorhus.Caprine.appdata.xml /app/share/appdata/com.sindresorhus.Caprine.appdata.xml
+      - install -Dm644 ../com.sindresorhus.Caprine.metainfo.xml /app/share/metainfo/com.sindresorhus.Caprine.metainfo.xml
       - install -Dm755 ../caprine.sh /app/bin/caprine
     subdir: main
     sources:
@@ -77,6 +77,6 @@ modules:
         path: com.sindresorhus.Caprine.desktop
         sha256: 3209123c01a934c7a0bc4e550b81e22c9ff276c32a766e96abe22e5cd00d04a9
       - type: file
-        path: com.sindresorhus.Caprine.appdata.xml
+        path: com.sindresorhus.Caprine.metainfo.xml
         sha256: c9ac4d5d18220b3acfbe7337f2b4adb3eb42e29dcb0d1fbbca8b13883c8f8989
       - generated-sources.json
