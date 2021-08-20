@@ -78,5 +78,5 @@ modules:
         sha256: 3209123c01a934c7a0bc4e550b81e22c9ff276c32a766e96abe22e5cd00d04a9
       - type: file
         path: com.sindresorhus.Caprine.appdata.xml
-        sha256: 901be926714bec56d31f8813d8c8c68413773da0fd79c8084e1cda9a679e153a
+        sha256: c9ac4d5d18220b3acfbe7337f2b4adb3eb42e29dcb0d1fbbca8b13883c8f8989
       - generated-sources.json
