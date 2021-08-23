@@ -1,0 +1,30 @@
+app-id: org.gtk.Gtk3theme.CBlack
+branch: stable
+runtime: org.freedesktop.Platform
+runtime-version: '20.08'
+sdk: org.freedesktop.Sdk
+
+build-extension: true
+appstream-compose: false
+separate-locales: false
+
+modules:
+  - name: CBlack
+    buildsystem: simple
+    build-commands:
+      - install -Dm644 CBlack/files/CBlack/index.theme -t /usr/share/runtime/share/themes/CBlack
+      - install -Dm644 CBlack/files/CBlack/gtk-3.0/gtk.css -t /usr/share/runtime/share/themes/CBlack/gtk-3.0
+      - install -Dm644 CBlack/files/CBlack/gtk-3.0/assets/* -t /usr/share/runtime/share/themes/CBlack/gtk-3.0/assets
+    sources:
+      - type: git
+        url: https://github.com/linuxmint/cinnamon-spices-themes.git
+        commit: 47c13c675f58c85765604ba1a99ab33aed416c11
+
+  - name: appdata
+    buildsystem: simple
+    build-commands:
+      - install -Dm644 org.gtk.Gtk3theme.CBlack.metainfo.xml -t ${FLATPAK_DEST}/share/metainfo
+    sources:
+      - type: file
+        path: org.gtk.Gtk3theme.CBlack.metainfo.xml
+        sha256: faf4f8e1101344e55e1bbfb329e0fc60b12970cc980344d8173359c7b47e777e

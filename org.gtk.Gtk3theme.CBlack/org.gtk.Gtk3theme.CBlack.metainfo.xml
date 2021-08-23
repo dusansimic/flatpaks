@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="runtime">
+    <id>org.gtk.Gtk3theme.CBlack</id>
+    <metadata_license>CC0-1.0</metadata_license>
+    <name>CBlack Gtk Theme</name>
+    <summary>CBlack theme</summary>
+    <description>
+        <p>CBlack theme</p>
+    </description>
+    <url type="homepage">https://github.com/linuxmint/cinnamon-spices-themes</url>
+</component>
